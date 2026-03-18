@@ -103,6 +103,7 @@ The [`research/`](research/) folder contains the curated research, benchmarks, a
 | [TypeScript Patterns](research/typescript-patterns.md) | Anti-bloat commandments, architectural patterns, validation strategies |
 | [Schema-Driven Dev](research/schema-driven-dev.md) | The 4-pillar methodology for contract-first, agent-safe development |
 | [Roadmap Planning](research/roadmap-planning.md) | YAML roadmap schemas, RICE/WSJF prioritization, sprint workflows |
+| [SSRIV Method](research/ssriv-method.md) ⚠️ **experimental** | Proposed 5-layer architecture pattern for AI-assisted development. Unproven at scale — a thinking tool, not a guarantee |
 
 This is the "show your work" section — the data behind the recipes.
 
@@ -134,7 +135,8 @@ agentic-skills/
 │   ├── typescript-2026-stack.md
 │   ├── typescript-patterns.md
 │   ├── schema-driven-dev.md
-│   └── roadmap-planning.md
+│   ├── roadmap-planning.md
+│   └── ssriv-method.md        # ⚠️ experimental proposal
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── LICENSE                    # MIT

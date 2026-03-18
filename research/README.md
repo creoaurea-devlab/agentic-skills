@@ -12,6 +12,7 @@ This section contains the raw knowledge base that informed the [skills](../skill
 | [**TypeScript Patterns & Rules**](typescript-patterns.md) | Anti-bloat commandments, architectural patterns, functional core/imperative shell, strict typing strategies, and project structure templates |
 | [**Schema-Driven Development**](schema-driven-dev.md) | The 4-pillar methodology: Spec → Schema → Registry → Isolated Modules. Contract-first development that works for both humans and AI agents |
 | [**Roadmap & Planning Systems**](roadmap-planning.md) | Machine-readable YAML roadmap schemas, prioritization frameworks, sprint planning, and agent-executable workflows for project management |
+| [**SSRIV Method**](ssriv-method.md) ⚠️ *experimental* | Proposed 5-layer method for hallucination-resistant AI development: Spec · Schema · Registry · Isolated Modules · Validation. Not proven at scale — shipped as a thinking tool |
 
 ## How This Was Made
 
