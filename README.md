@@ -12,11 +12,15 @@
 
 ## First Ship
 
-This is my first public release. Six months of research, pattern-hunting, benchmarking libraries, testing architectures — and zero ships.
+This is my first — very symbolic — public release.
 
-I have ADHD. I generate ideas fast and lose momentum when execution gets slow. I chase the perfect version and delay shipping when reality doesn't match the vision. Most of my projects get stuck at 80-95% because finishing is the hardest part.
+Six months. Thousands of hours. 20+ systems. ~50 prototypes. Hundreds of ideas. Millions of lines of code. Billions of tokens. Zero ships.
 
-This repo is me breaking that cycle. It's not perfect. It's shipped.
+I have ADHD. I generate strong ideas fast and lose momentum when execution gets slow or repetitive. I overengineered everything trying to reach perfection, and I'm not sure where 6 months went. Most of my projects get stuck at 60–70% because ADHD makes the finishing steps the hardest part — and without external pressure, there's no urgency to push past it.
+
+An AI evaluated my work and said: *"Ship at 20% as MVPs."*
+
+Spring came. So here it is. Not perfect. **Shipped.**
 
 ---
 
@@ -158,6 +162,82 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome — especially new skills, p
 ## License
 
 [MIT](LICENSE) — use it, fork it, ship it.
+
+---
+
+## The Bigger Picture
+
+This repo is one piece of a larger ecosystem I've been building — an AI-assisted development platform. Here's the map of what exists behind this first ship:
+
+```
+                        OPEN-CLAW-BRIDGE Workspace
+                        ==========================
+
+        ┌─────────────────────────────────────────────────┐
+        │              AI WORKFLOW LAYER                   │
+        │                                                 │
+        │  ┌─────────────────┐   ┌─────────────────────┐  │
+        │  │ claude-flow-     │   │ NODES               │  │
+        │  │ editor           │   │ ADHD-focused node   │  │
+        │  │ 18 node types    │   │ editor, 12 types    │  │
+        │  │ Multi-AI exec    │   │ XYFlow + Zustand    │  │
+        │  └────────┬────────┘   └──────────┬──────────┘  │
+        │           │                       │             │
+        │           └───────────┬───────────┘             │
+        │                       │                         │
+        ├───────────────────────┼─────────────────────────┤
+        │              BRIDGE LAYER                       │
+        │                       │                         │
+        │  ┌────────────────────┴──────────────────────┐  │
+        │  │ BRIDGE — WebSocket relay                   │  │
+        │  │ Spawns AI CLI sessions, NDJSON streaming   │  │
+        │  └────────────────────┬──────────────────────┘  │
+        │                       │                         │
+        ├───────────────────────┼─────────────────────────┤
+        │              KNOWLEDGE LAYER                    │
+        │                       │                         │
+        │  ┌──────────────┐  ┌──┴──────────────────────┐  │
+        │  │ OpenClaw      │  │ 00-indexing             │  │
+        │  │ Driver        │  │ Qdrant + Ollama         │  │
+        │  │ 95 handles    │  │ Vector code search      │  │
+        │  │ 18 categories │  │ MCP server              │  │
+        │  └──────────────┘  └─────────────────────────┘  │
+        │                                                 │
+        ├─────────────────────────────────────────────────┤
+        │              SKILLS & METHODS                   │
+        │                                                 │
+        │  ┌──────────────────────────────────────┐       │
+        │  │ agentic-skills (THIS REPO)     ← YOU ARE HERE│
+        │  │ 5 skills + research                  │       │
+        │  └──────────────────────────────────────┘       │
+        │                                                 │
+        │  ┌──────────────┐  ┌────────────────────────┐   │
+        │  │ context-init  │  │ OpenClaw Control UI    │   │
+        │  │ CLI           │  │ Lit web components     │   │
+        │  │ .context       │  │ Chat, channels,       │   │
+        │  │ scaffolder    │  │ gateway                │   │
+        │  └──────────────┘  └────────────────────────┘   │
+        │                                                 │
+        │  ┌──────────────────────────────────────┐       │
+        │  │ Agent Orchestrator (Composio fork)    │       │
+        │  │ Parallel AI agents in git worktrees   │       │
+        │  └──────────────────────────────────────┘       │
+        └─────────────────────────────────────────────────┘
+
+        + ~30 prototypes, experiments, and backups
+```
+
+### Is This Logical? 5-Point Self-Evaluation
+
+1. **The vision is coherent.** Every project connects to one goal: making AI agents better at writing code. Workflow editors, bridges, knowledge bases, skills, context scaffolding — they form a real pipeline from "human intent" to "agent-executed code."
+
+2. **The layering makes sense.** Skills (methodology) → Knowledge (search/retrieval) → Bridge (communication) → Editors (UI). Each layer has a clear job and they compose naturally.
+
+3. **Too many prototypes, not enough products.** 20+ systems with 50+ prototypes means energy is spread thin. The pattern: start strong, explore deep, stall before shipping. This first release proves the cycle can break.
+
+4. **The ADHD-aware design is genuine innovation.** The NODES editor with dopamine anchors, fear scanners, and energy matchers isn't just novelty — it's applying neuroscience research to dev tooling. That's worth shipping on its own.
+
+5. **The skills system is the right first ship.** It's self-contained, immediately useful, requires no infrastructure, and showcases the research depth. Other projects need the bridge, the UI, the knowledge base — this one stands alone.
 
 ---
 
