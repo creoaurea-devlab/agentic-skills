@@ -17,11 +17,12 @@ This is my first — very symbolic — public release.
 
 Six months. Thousands of hours. 20+ systems. ~50 prototypes. Hundreds of ideas. FewMillion+ of lines of code. Billions of tokens. Zero ships.
 
-ADHD is strong generate strong ideas fast and lose momentum when execution gets slow or repetitive. I overengineered everything trying to reach perfection, and I'm not sure where 6 months went. Most of my projects get stuck at 60–70% because ADHD makes the finishing steps the hardest part — and without external pressure, there's no urgency to push past it.
+Perfectionism+adhd - has some science behind :)  strong ideas - momentum loss when execution gets slow or repetitive. 
+I'm not sure where 6 months went. Most of my projects get abandoned at 60–70% . Overwhealming new revolutionary tool every day. 
 
-An AI evaluated my work and suggested: *"Ship at 20% as MVPs."*
+My bot friends sugested to ship at 20%
 
-Spring came. So here it is. Not perfect. **Shipped.**
+A grain of sand in the desert storm -
 
 ---
 
