@@ -10,15 +10,16 @@
 
 ---
 
-## First Ship
+## First Ship - 
+(workflows/skills i use and constantly updating)
 
 This is my first — very symbolic — public release.
 
-Six months. Thousands of hours. 20+ systems. ~50 prototypes. Hundreds of ideas. Millions of lines of code. Billions of tokens. Zero ships.
+Six months. Thousands of hours. 20+ systems. ~50 prototypes. Hundreds of ideas. FewMillion+ of lines of code. Billions of tokens. Zero ships.
 
-I have ADHD. I generate strong ideas fast and lose momentum when execution gets slow or repetitive. I overengineered everything trying to reach perfection, and I'm not sure where 6 months went. Most of my projects get stuck at 60–70% because ADHD makes the finishing steps the hardest part — and without external pressure, there's no urgency to push past it.
+ADHD is strong generate strong ideas fast and lose momentum when execution gets slow or repetitive. I overengineered everything trying to reach perfection, and I'm not sure where 6 months went. Most of my projects get stuck at 60–70% because ADHD makes the finishing steps the hardest part — and without external pressure, there's no urgency to push past it.
 
-An AI evaluated my work and said: *"Ship at 20% as MVPs."*
+An AI evaluated my work and suggested: *"Ship at 20% as MVPs."*
 
 Spring came. So here it is. Not perfect. **Shipped.**
 
